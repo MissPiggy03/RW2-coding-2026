@@ -1,5 +1,5 @@
 # this is a dictionary exercise
-teacher = {"name":"mike", "age","48"}
+teacher = {"name":"mike","age","48"}
 
 # add a new dictionary element
 called city with a value of boston
