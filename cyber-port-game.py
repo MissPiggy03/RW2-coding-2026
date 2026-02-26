@@ -1,5 +1,5 @@
 
-name: cyber-port fun.py
+name: cyber-port-game.py
 date: 02.25.26
 rev:  1
 descr: use python to creat cli port # guessing game
@@ -10,14 +10,14 @@ import random, os, time, sys
 
 # variables
 banner = "\n\n ### Cyber Port Number Guessing Game ### ### \n\n"
-svc_names = ["SSH", "HTTP", "HTTPS", "Telnet", "RDP", "VNC", "POP3", "SMTP", "DNS", "DHCP"]
-port_nums = [22, 80, 443, 23, 3389, 5900, 110, 25, 53, 67]
+svc_names = ["SSH", "HTTP", "HTTPS", "Telnet", "RDP", "VNC", "POP3", "SMTP", "DNS", "DHCP", FTP]
+port_nums = [22, 80, 443, 23, 3389, 5900, 110, 25, 53, 67, 21]
 score = 0
 
 # generate random integer list from 0-9
 # use them to access the svc_names and port_nums elements
 
-ran_int_list = random.sample(range(0, 10), 10)
+ran_int_list = random.sample(range(0, 11), 11)
 
 # print the banner
 
